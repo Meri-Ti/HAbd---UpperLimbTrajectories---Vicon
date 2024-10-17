@@ -51,9 +51,3 @@ The image above shows the trajectories of different joints during abduction at v
 
 - **MATLAB R2020b** or later (for rigid body tree and visualization).
 - CSV data files for subjects (S1 to S11) stored in respective folders.
-
-## How to Run
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/username/repository.git
