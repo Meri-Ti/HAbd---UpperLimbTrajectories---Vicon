@@ -1,20 +1,20 @@
 # HAbd-UpperLimbTrajectories-Vicon
 # Upper Limb Biomechanical Model and Motion Analysis
 
-This repository contains MATLAB code for developing a rigid body tree-based biomechanical model of the upper limb and visualizing joint trajectories during abduction movements. The data used in this project is recorded with the Vicon motion capture system.
+This repository contains MATLAB code for developing a rigid body tree-based biomechanical model of the upper limb and visualizing joint trajectories during the abduction and horizontal abduction exercises. The data used in this project is recorded with the Vicon motion capture system.
 
 ## Project Overview
 
-The goal of this project is to model the upper limb using rigid body dynamics and analyze the abduction trajectories of several joints (sternum, shoulder, elbow, wrist). The project includes:
+The goal of this project is to model the upper limb using rigid body tree and analyze the abduction and horizontal abduction trajectories of the main human upper limb joints: sternum, shoulder, elbow, wrist. The project includes:
 - Importing marker trajectory data from CSV files.
 - Building a rigid body tree to represent the upper limb.
-- Visualizing joint motion for abduction and horizontal abduction movements.
+- Visualizing joint motion for abduction (0°, 30°, 60°, 90°) and horizontal abduction (30°, 45°, 60°, 90°, 120°) exercises.
 - Generating figures for joint trajectories with respect to different abduction angles.
 
 ## Directory Structure
 
-- `S1_ABD`, `S2_ABD`, ..., `S11_ABD`: Folders containing CSV data for abduction movements from subjects S1 to S11.
-- `S1_HABD`, `S2_HABD`, ..., `S11_HABD`: Folders containing CSV data for horizontal abduction movements from subjects S1 to S11.
+- `S1_ABD`, `S2_ABD`, ..., `S11_ABD`: Folders containing CSV data for abduction exercises from subjects S1 to S11.
+- `S1_HABD`, `S2_HABD`, ..., `S11_HABD`: Folders containing CSV data for horizontal exercises movements from subjects S1 to S11.
 
 ## Key Files
 
