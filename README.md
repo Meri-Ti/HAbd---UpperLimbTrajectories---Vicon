@@ -1,5 +1,4 @@
 # HAbd-UpperLimbTrajectories-Vicon
-# Upper Limb Biomechanical Model and Motion Analysis
 
 This repository contains MATLAB code for developing a rigid body tree-based biomechanical model of the upper limb and visualizing joint trajectories during the abduction (0°, 30°, 60°, 90°) and horizontal abduction (30°, 45°, 60°, 90°, 120°) exercises. The data used in this project have been recorded with the Vicon motion capture system.
 
