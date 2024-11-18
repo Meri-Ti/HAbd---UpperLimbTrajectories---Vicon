@@ -40,12 +40,6 @@ The code includes:
 ### Functions
 
 - `process_abduction_data(filename)`: Processes abduction data files and returns translated x, y, z coordinates for each marker (STRN, SHO, ELB, WRIST).
-  
-## Visualization Example
-
-![Visualization Example](path/to/visualization/image.png)
-
-The image above shows the trajectories of different joints during abduction at various angles. Each joint's path is colored according to the abduction angle.
 
 ## Requirements
 
